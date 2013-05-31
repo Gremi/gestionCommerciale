@@ -5,7 +5,7 @@ DialogNouveauClient::DialogNouveauClient(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::DialogNouveauClient)
 {
-    setWindowTitle("Création d'un nouveau Client");
+    setWindowTitle("Création du nouveau Client");
     ui->setupUi(this);
 }
 
